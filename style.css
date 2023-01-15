@@ -7,9 +7,11 @@ font-family: 'Prompt', sans-serif;
     padding: 0;
  }
 
+
+
  /* -----------------Header section styles---------------- */
  header{
-    width: 100%;
+     width: 100%; 
     background-color: rgb(253, 236, 212);
  }
 
@@ -79,3 +81,396 @@ font-family: 'Prompt', sans-serif;
  .btn:hover{
     cursor: pointer;
  }
+
+
+
+ 
+ /* ------------------main section style------------------- */
+ .feature-list{
+   display: flex;
+   margin-top: 70px;
+   margin-left: 200px;
+   align-items: center;
+    margin-right: 150px;
+ }
+ .photo{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+ }
+
+ .quick-list{
+   padding-left: 84px;
+   
+ }
+
+ .quick-list h1{
+   font-size: 40px;
+   margin-bottom: 12px;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+ .quick-list h1 .l1{
+   color: gray;
+   font-weight: 400;
+
+ }
+
+ .quick-list h1 .l2{
+   color: black;
+   font-weight: 900;
+   font-size: 50px;
+ }
+
+ .quick-list h1 .l3{
+   color: orangered;
+   font-size: 50px;
+ }
+
+ .quick-list p{
+   font-family: 'Prompt', sans-serif;
+   font-weight: 700;
+   color: gray;
+ }
+
+ .btn2 button{
+   font-size: 20px;
+    color: white;
+    background-color: rgb(222, 106, 11);
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 23px;
+ }
+
+ /* =--------features details style-------------*/
+
+ .features-details{
+   display: flex;
+   padding: 40px 0px;
+   align-items: center;
+   
+   justify-content: space-evenly;
+
+ }
+ 
+
+ .heading{
+   width: 400px;
+ }
+
+ .heading h1{
+   font-size: 40px;
+   font-family: 'Josefin Sans', sans-serif;
+   margin-bottom: 15px;
+   padding-left: 10px;
+   border-left: 4px solid orangered;
+   
+ }
+
+ .heading p{
+   font-family: 'Prompt', sans-serif;
+ }
+
+ 
+ .d-d{
+   margin-top: 40px;
+   width: 350px;
+   border-radius: 7px;
+   padding: 20px;
+   box-shadow: 5px 5px 5px .5px gray;
+ }
+ .d-d h2{
+   font-size: 15px;
+   font-family: 'Josefin Sans', sans-serif;
+   margin-bottom: 20px
+
+ }
+
+ .d-d p{
+   font-family: 'Prompt', sans-serif;
+   color: gray;
+   font-weight: 900px;
+ }
+ .d-picture img{
+   width: 500px;
+   height: 850px;
+   
+ }
+
+ .btn3 button{
+   font-size: 20px;
+    color: white;
+    background-color: rgb(222, 106, 11);
+    padding: 30px 70px;
+    
+    border: none;
+    border-radius: 6px;
+    margin-top: 23px;
+    
+    
+ }
+ 
+ 
+
+ .btn3 button span{
+   font-size: 35px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 700;
+ }
+
+ /* -----------achivment------------------ */
+
+
+   .achivment{
+      
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+   }
+
+   .achivment h1{
+      font-size: 40px;
+      font-family: 'Josefin Sans', sans-serif;
+      margin-bottom: 15px;
+      
+   }
+
+   .achivment p{
+      font-family: 'Prompt', sans-serif;
+      margin-bottom: 25px;
+   }
+ .boxes{
+   display: flex;
+   margin: 34px;
+   align-items: center;
+ }
+
+ .box{
+   padding: 25px;
+    border: 1px solid orangered;
+    text-align: center;
+    border-radius: 7px;
+    margin: 24px;
+    transition: 2s;
+ }
+
+ .box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    border-radius: 100px;
+    background-color: rgb(55, 53, 60);
+    border: none;
+    color: white;
+ }
+
+ 
+
+ /* project section style------------- */
+
+ .projects{
+   padding: 104px 210px;
+   text-align: center;
+   background-color: rgb(39, 77, 77);
+ }
+
+ .projects h1{
+   font-size: 40px;
+   margin-bottom: 40px;
+ }
+ .projects h1 span{
+   color: rgb(136, 158, 13);
+ }
+ .project img{
+   height: 264px;
+    width: 211px;
+    gap: 25px;
+ }
+
+
+ .contact{
+   margin-top: 23px;
+ }
+
+ .contact form{
+   display: flex;
+   flex-direction: column;
+   
+   
+   
+   align-items: center;
+   justify-content: space-evenly;
+   
+ }
+
+ .contact form input{
+   width: 422px;
+    padding: 10px;
+    height: 30px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px gray;
+}
+.contact button{
+   padding: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 20px;
+    border: none;
+
+
+}
+
+.contact button:hover{
+   cursor: pointer;
+   color: rgb(114, 82, 82);
+}
+ 
+
+ /* -------Sponsors section style---------- */
+ .sponsors{
+   text-align: center;
+   margin-top: 150px;
+ }
+
+ .sponsors h1{
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 50px;
+   font-weight: 900;
+   margin-bottom: 45px;
+ }
+
+ .sponsors p{
+   margin-bottom: 45px;
+   font-family: 'Prompt', sans-serif;
+   font-weight: 900;
+   color: gray;
+ }
+
+ .sponsor img{
+   padding: 30px;
+   
+ }
+
+ /* ------footer section styles-------- */
+
+ footer{
+  background-color:  rgb(245, 223, 195);
+
+  margin: 30px 200px;
+
+  height: 80px;
+  text-align: center;
+  
+ }
+
+ footer h3{
+  padding: 30px;
+  font-family: 'Prompt', sans-serif;
+  
+ }
+
+ /* Media Quires of Header section */
+
+ @media only screen and (max-width:576px) {
+   header{
+      width: 100%;
+   }
+
+   nav{
+      flex-direction: column;
+   }
+   .navbar ul{
+      flex-direction: column;
+   }
+   nav .logo{
+      margin-left: 52px;
+   }
+   .banner img{
+      width: 80%;
+      height: 100%;
+      padding-left: 40px;
+   }
+
+   .header p{
+      padding: 5px;
+   }
+
+   /* meadia quires for features section */
+   .features{
+      width: 100%;
+   }
+      .feature-list{
+         flex-direction: column;
+         margin-right: 0;
+         margin-left: 0;
+      }
+   .photo{
+      grid-template-columns: repeat(1, 1fr);
+      margin: 0;
+   }
+
+   .quick-list{
+      padding-left: 45px;
+   }
+   .quick-list h1{
+      margin-top: 45px;
+   }
+
+   .features-details{
+      flex-wrap: wrap;
+   }
+   .d-picture img{
+      width: 100%;
+   }
+   .heading{
+      width: 320px;
+   }
+
+
+
+   .achivment p{
+      text-align: center;
+   }
+
+   .boxes{
+      flex-wrap: wrap;
+      margin: 65px;
+   }
+
+   .projects{
+      padding: 100px 80px;
+   }
+
+   .contact-form{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+
+   }
+
+   .contact form input{
+      width: 200px;
+      height: 10px;
+      
+   }
+   
+   footer{
+      margin: 0;
+      height: 135px;
+   }
+
+   
+   
+   
+ }
+
+
+ 
+
+
+   
+ 
+
+ 
